@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+	background-image: url(Honguito.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+    background-color: rgb(197, 160, 110);
+    font-size: 40px;
+    padding: 20px 20px;
+    color: #333;
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: 50px;
+
+}
+.menu-horizontal
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a
+{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover
+{
+    background-color: rgb(33, 109, 49);
+}
+.menu-vertical
+{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-horizontal li:hover .menu-vertical
+{
+    display: block;
+}
+.menu-vertical li:hover
+{
+    background-color: black;
+}
+.menu-vertical li a
+{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Café claro */
+    margin-top: 40px; /* Separación de 40px arriba */
+  }
+  
+  /* Estilo de encabezado de tabla */
+  th {
+    background-color: #d2b48c; /* Café más oscuro para el encabezado */
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #a52a2a; /* Un tono de rojo como borde */
+  }
+  
+  /* Estilo de celda de tabla */
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #a52a2a; /* Borde más oscuro para las celdas */
+  }
+  
+  /* Estilo de fila par de tabla */
+  tr:nth-child(even) {
+    background-color: #f5f5dc; /* Café claro */
+  }
+  
+  /* Estilo de fila impar de tabla */
+  tr:nth-child(odd) {
+    background-color: #faf0e6; /* Café más claro */
+  }
+  
+  /* Estilo de hover sobre la fila */
+  tr:hover {
+    background-color: #f0e68c; /* Amarillo oscuro */
+  }
